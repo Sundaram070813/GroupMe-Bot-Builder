@@ -11,7 +11,7 @@ Cron Jobs: Handler functions that will be run on a set cron cadence
 Handler functions all take one argument (context) which is of type Context. The Context contains both a reference to the Bot object being called and the Callback object containing the payload from GroupMe.
 The passing of the Bot object in the Context allows for handler functions to be universal and shared by multiple Bots.
 Running Your App
-Start your app with Uvicorn. For more deployment details, see http://www.uvicorn.org/deployment/.
+Start your app with Uvicorn. 
 
 Example running an app object in main.py.
 
